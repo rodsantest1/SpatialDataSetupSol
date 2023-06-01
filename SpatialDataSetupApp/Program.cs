@@ -10,6 +10,7 @@ namespace SpatialDataSetupApp
     {
         static void Main(string[] args)
         {
+            SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);
         }
     }
 }
